@@ -1,0 +1,135 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #151B25;
+}
+h1 {
+    font-size: 65px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+p {
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+}
+h4 {
+    color: gray;
+    font-weight: 500;
+    font-size: 22spx;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+#Nav {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+    margin: auto;
+    background-color: #151B25;
+    border-right: 30px solid #364351;
+}
+#Nav ul {
+    height: 100%;
+    padding-top: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30;
+    color: white;
+}
+#Nav ul li {
+    padding-bottom: 5px;
+    color: white;
+}
+#body {
+    margin-left: 18%;
+    padding:1px 16px;
+}
+#main {
+    margin-right: 5%;
+    height: 94%;
+    background-image: url("me.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: scroll;
+}
+#Welcome {
+    margin: 0;
+    margin-left: 4%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.link-button1 {
+    display: inline-block;
+    width: 49.8%;
+    height: 8%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #548235;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.link-button2 {
+    display: inline-block;
+    width: 49.8%;
+    height: 8%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #151B25;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+#about {
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 10%;
+}
+#resume {
+    border-top: 1px solid gray;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+#contact {
+    border-top: 1px solid gray;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+.contact-info {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    margin-left: 4%;
+    float: right;
+    padding: 30px;
+    color: white;
+    border: 5px solid #151B25;
+    background-color: #364351;
+}
